@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form action="somefile.php">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>
+          <input type="name" name="name" size="17">
+        </td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>
+          <label><input type="radio" name="male">Male</label>
+          <p> <label><input type="radio" name="female">Female</label></p>
+        </td>
+      </tr>
+      <tr>
+        <td>Eye color</td>
+        <td>
+          <select name="select" size="1" id="1">
+            <option value="s1">-select color-</option>
+            <option value="s2">green</option>
+            <option value="s3">blue</option>
+            <option value="s4">brown</option>
+            <option value="s5">other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Check all that apply</td>
+        <td><label><input type="checkbox" name="height">Over 6 feet tall
+          </label>
+          <p> <label><input type="checkbox" name="weight">Over 200 pounds
+            </label></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">Describe you atheltic aibility:</td>
+      </tr>
+      <tr>
+        <td colspan="2"> <textarea name="text" id="text" cols="34" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="btn"><button>Enter my information</button></td>
+      </tr>
+
+    </table>
+  </form>
+
+
+</body>
+
+</html>

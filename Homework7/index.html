@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header"><b>The World of Fruit</b></header>
+    <main class="main">
+        <section id="survey"><b>Fruit Survey</b> </section>
+            <table>
+
+
+                <form action="some.php" method="get" name="survey" class="survey">
+                  
+                    <tr >
+                        <td class="credentials"> <label for="name">Name</label> </td>
+                        <td><input type="name" name="name" id="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="credentials"><label for="address">Address</label></td>
+                        <td><input type="adress" name="address" id="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="credentials"><label for="email">Email</label></td>
+                        <td><input type="email" name="Email" id="input"></td>
+                    </tr>
+                     
+                    <tr>
+                        <td class="howmany">How many pieces of fruit do you eat everyday?</td>
+                        <td class="radio">
+                        
+                                <input type="radio" name="howmany">0
+                             <input type="radio" name="howmany">1
+                            <input type="radio" name="howmany">2 
+                             <input type="radio" name="howmany"> More than 2</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fruit">
+                            My favourite fruit
+                        </td>
+                        <td class="fave">
+                            <select name="select" size="4" id="1" multiple>
+                                <option value="s1">Apple</option>
+                                <option value="s2">Banana</option>
+                                <option value="s3">Plum</option>
+                                <option value="s4">Pomegrante</option>
+                                <option value="s5">Orange</option>
+                                <option value="s6">Watermelon</option>
+                            </select></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            Would you like a brochure?
+                        </td>
+                        <td class="brochure">
+                            <input type="checkbox" name="brochure" value="yes">
+
+
+
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="btn" colspan="2">
+                            <input type="submit" name="submit" value="Submit">
+                        </td>
+                    </tr>
+
+                </form>
+
+            </table>
+
+
+       
+
+
+    </main>
+
+
+</body>
+</html>

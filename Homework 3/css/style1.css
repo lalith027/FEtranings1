@@ -1,10 +1,10 @@
 
 th{
 border: 1px solid black;
-    }
+padding: 10px;  }
 table{
 border: 1.5px solid black;
 }
 td{
 border:0.5px solid lightgrey;
-}
+padding: 3px;}
