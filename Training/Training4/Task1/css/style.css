@@ -1,0 +1,24 @@
+.box{
+width: 200px;  
+height: 200px;
+display: inline-block;
+background-color: red;
+color:white;
+ overflow-y:scroll;
+ overflow-x: hidden;
+}
+ 
+#two{
+position:relative;
+top:20px;
+left:20px;
+background-color: blue;
+}
+.positioned{
+position: sticky;
+width:300px;
+height: 100px;
+top:30px;
+left:30px;
+background-color: yellow;
+}
